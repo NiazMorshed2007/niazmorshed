@@ -1,15 +1,16 @@
 import React from "react";
 import triangle from "../assets/triangle.png";
 import code from "../assets/code.png";
+import Image from "next/image";
 
 const Banner = () => {
   return (
     <div className="banner-wrapper overflow-hidden relative">
       <div className="absolute rotate-12 top-14 left-1/2">
-        <img width={150} src={triangle.src} alt="" />
+        <Image width={200} height={200} src={triangle} alt="" />
       </div>
       <div className="absolute rotate-12 bottom-14 right-32">
-        <img width={250} src={code.src} alt="" />
+        <Image width={250} height={250} src={code} alt="" />
       </div>
       <div className="absolute w-56 h-56 border-8 border-violet-800 rounded-full bottom-10 left-10"></div>
       <div className="banner justify-center backdrop-blur-sm relative flex items-center bg-slate-100/50 px-14 w-full h-screen">
