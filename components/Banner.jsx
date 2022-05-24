@@ -16,7 +16,7 @@ const Banner = () => {
       <div className="banner justify-center backdrop-blur-sm relative flex items-center bg-slate-100/50 px-14 w-full h-screen">
         <div className="w-1/2 text-center pt-5">
           <p>Hello there, </p>
-          <h1 className="text-7xl font-semibold">I'm Niaz Morshed</h1>
+          <h1 className="text-7xl font-semibold">I am Niaz Morshed</h1>
           <h2 className="mt-4 font-medium text-xl">
             Frontend Software Engineer, I create beautiful UI for modern user
             experience better to make web better.
