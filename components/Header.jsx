@@ -28,7 +28,7 @@ const Header = () => {
   return (
     <header
       className={`flex fixed transition-all w-full ${
-        sticky ? "py-5 bg-white shadow-lg" : "py-8"
+        sticky ? "&apos py-5 bg-white shadow-lg" : "py-8"
       } items-center justify-between px-12 z-10`}
     >
       <div className="font-semibold text-xl w-9 h-9 cursor-pointer rounded-full bg-violet-500 shadow-lg"></div>
