@@ -38,7 +38,7 @@ const Header = () => {
       </nav>
       <div className="flex items-center gap-2">
         {social_links.map((link) => (
-          <a target={"_blank"} key={link.key} href={link.link}>
+          <a rel="noreffer" target={"_blank"} key={link.key} href={link.link}>
             <div className="p-2 w-10 h-10 rounded-full border border-gray-100 shadow-xl flex items-center justify-center">
               <img src={link.url} alt="" />
             </div>
