@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import twitter from "../assets/twitter.png";
 import github from "../assets/github.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const Header = () => {
   const [sticky, setSticky] = useState(false);
@@ -26,9 +27,9 @@ const Header = () => {
   }, []);
   return (
     <header
-      className={`flex fixed transition-all w-full z-50 px-7 backdrop-blur-sm items-center justify-between ${
-        sticky ? "py-5 bg-white/70 shadow-lg" : "py-8"
-      } items-center justify-between px-12`}
+      className={`flex fixed transition-all w-full ${
+        sticky ? "py-5 bg-white shadow-lg" : "py-8"
+      } items-center justify-between px-12 z-10`}
     >
       <div className="font-semibold text-xl w-9 h-9 cursor-pointer rounded-full bg-violet-500 shadow-lg"></div>
       <nav className="flex items-center gap-14">
@@ -39,11 +40,11 @@ const Header = () => {
       </nav>
       <div className="flex items-center gap-2">
         {social_links.map((link) => (
-          <a rel="noreffer" target={"_blank"} key={link.key} href={link.link}>
+          <Link key={link.key} href={link.url}>
             <div className="p-2 w-10 h-10 rounded-full border border-gray-100 shadow-xl flex items-center justify-center">
-              <Image width={50} src={link.url} />
+              <Image width={50} src={link.url} alt={"icon"} />
             </div>
-          </a>
+          </Link>
         ))}
       </div>
     </header>
