@@ -1,5 +1,7 @@
 import Head from "next/head";
+import About from "../components/AboutMe";
 import Banner from "../components/Banner";
+import ShowCase from "../components/Showcase";
 import Layout from "../layout/Layout";
 
 export default function Home() {
@@ -13,13 +15,8 @@ export default function Home() {
 
       <Layout>
         <Banner />
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. In pariatur
-        velit minus, quod nam voluptatibus? Impedit sequi vitae voluptates
-        quibusdam aliquam asperiores corporis esse fuga ullam dicta, inventore
-        obcaecati odio. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Obcaecati consequuntur impedit, quod repudiandae repellat, eligendi
-        temporibus rem hic quisquam nihil labore. Sunt, distinctio eos illum est
-        molestias id ducimus. Explicabo!
+        <About />
+        <ShowCase />
       </Layout>
     </div>
   );

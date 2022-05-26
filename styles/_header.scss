@@ -1,6 +1,6 @@
 header {
     nav {
-        p {
+        a {
             @apply cursor-pointer relative overflow-hidden transition-all;
                 &:hover {
                     &::before {
