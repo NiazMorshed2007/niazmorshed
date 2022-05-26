@@ -1,18 +1,18 @@
 header {
-    nav {
-        a {
-            @apply cursor-pointer relative overflow-hidden transition-all;
-                &:hover {
-                    &::before {
-                        @apply translate-x-0;
-                    }
-                }
-                &::before { 
-                    content: '';
-                    height: 2px;
-                    transition: all .2s ease-in-out;
-                    @apply absolute w-full bottom-0 bg-violet-500 left-0 -translate-x-full;
-            }
+  nav {
+    a {
+      @apply cursor-pointer relative overflow-hidden transition-all;
+      &:hover {
+        &::before {
+          @apply translate-x-0;
         }
+      }
+      &::before {
+        content: "";
+        height: 2px;
+        transition: all 0.2s ease-in-out;
+        @apply absolute w-full bottom-0 bg-violet-500 left-0 -translate-x-full;
+      }
     }
+  }
 }

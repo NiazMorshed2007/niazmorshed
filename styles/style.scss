@@ -1,11 +1,24 @@
-@import './fonts';
-@import './globals';
-@import './header';
+@import "./fonts";
+@import "./globals";
+@import "./header";
 
 body {
-    font-family: $nunito;
+  font-family: $nunito;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+.project {
+  @apply relative;
+  //   &:hover {
+  //     .shape {
+  //       @apply translate-x-0;
+  //     }
+  //   }
+  //   .shape {
+  //     @apply absolute -translate-x-full w-full h-full top-0 left-0 bg-white/70 backdrop-blur-sm;
+  //     transition: all 0.7 ease-in-out;
+  //   }
 }

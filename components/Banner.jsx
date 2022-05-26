@@ -21,9 +21,7 @@ const Banner = () => {
             Frontend Software Engineer, I create beautiful UI for modern user
             experience better to make web better.
           </h2>
-          <button className="mt-7 p-3 px-6 rounded-3xl shadow-lg bg-violet-800 text-white">
-            Explore More
-          </button>
+          <button>Explore More</button>
         </div>
       </div>
     </div>
