@@ -8,8 +8,8 @@ import NavigateIconLink from "./NavigateIconLink";
 const ShowCase = () => {
   const router = useRouter();
   return (
-    <section id="showcase" className="py-28 px-20 bg-gray-50/30">
-      <h1 className="text-3xl border-b border-dashed">
+    <section id="showcase" className="py-28 px-20 bg-gray-50/80">
+      <h1 className="title">
         {" "}
         <span className="text-5xl text-indigo-500">S</span>howcase
       </h1>

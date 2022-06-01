@@ -1,33 +1,32 @@
-[{
+[
+  {
     "name": "Shomba",
     "id": "project-shomba",
     "photo": "https://firebasestorage.googleapis.com/v0/b/photo-gallery-c74f3.appspot.com/o/shomba-banner.png?alt=media&token=e9a5783e-5c1c-4a8d-80dd-bc98b27838aa"
-}, {
+  },
+  {
     "name": "Nakuti",
     "id": "project-nakuti",
     "photo": "https://firebasestorage.googleapis.com/v0/b/photo-gallery-c74f3.appspot.com/o/Screenshot%202022-05-26%20115437.png?alt=media&token=d12140aa-9f60-4c8e-92c3-4fb7965977ac"
-}, {
+  },
+  {
     "name": "Chat App",
     "id": "project-chat",
     "photo": "https://firebasestorage.googleapis.com/v0/b/photo-gallery-c74f3.appspot.com/o/chat1.png?alt=media&token=c6bd84fb-7eb9-4c84-8459-69a6e127a3c2"
-},{
+  },
+  {
     "name": "Shomba",
     "id": "project-shomba",
     "photo": "https://firebasestorage.googleapis.com/v0/b/photo-gallery-c74f3.appspot.com/o/shomba-banner.png?alt=media&token=e9a5783e-5c1c-4a8d-80dd-bc98b27838aa"
-
-},{
+  },
+  {
     "name": "Shomba",
     "id": "project-shomba",
     "photo": "https://firebasestorage.googleapis.com/v0/b/photo-gallery-c74f3.appspot.com/o/shomba-banner.png?alt=media&token=e9a5783e-5c1c-4a8d-80dd-bc98b27838aa"
-
-},{
+  },
+  {
     "name": "Shomba",
     "id": "project-shomba",
     "photo": "https://firebasestorage.googleapis.com/v0/b/photo-gallery-c74f3.appspot.com/o/shomba-banner.png?alt=media&token=e9a5783e-5c1c-4a8d-80dd-bc98b27838aa"
-
-},{
-    "name": "Shomba",
-    "id": "project-shomba",
-    "photo": "https://firebasestorage.googleapis.com/v0/b/photo-gallery-c74f3.appspot.com/o/shomba-banner.png?alt=media&token=e9a5783e-5c1c-4a8d-80dd-bc98b27838aa"
-
-}]
+  }
+]

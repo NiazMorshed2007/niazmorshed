@@ -18,8 +18,8 @@ const Banner = () => {
           <p>Hello there, </p>
           <h1 className="text-7xl font-semibold">I am Niaz Morshed</h1>
           <h2 className="mt-4 font-medium text-xl">
-            Frontend Software Engineer, I create beautiful UI for modern user
-            experience better to make web better.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
+            itaque praesentium dese
           </h2>
           <button>Explore More</button>
         </div>

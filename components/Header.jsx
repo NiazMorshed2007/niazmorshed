@@ -41,10 +41,10 @@ const Header = () => {
       <Link href={"/"}>
         <div className="font-semibold text-xl w-9 h-9 cursor-pointer rounded-full bg-violet-500 shadow-lg"></div>
       </Link>
-      <nav className="flex items-center gap-14">
+      <nav className="flex ml-20 items-center gap-14">
         <Link href={"/#about"}>About me</Link>
+        <Link href={"/#experience"}>Experience</Link>
         <Link href={"/#showcase"}>Showcase</Link>
-        <Link href={"/#about"}>Skills</Link>
         <Link href={"/#about"}>Contact</Link>
       </nav>
       <div className="flex items-center gap-2">
