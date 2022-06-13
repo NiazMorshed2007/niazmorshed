@@ -45,7 +45,7 @@ const Header = () => {
         <Link href={"/#about"}>About me</Link>
         <Link href={"/#experience"}>Experience</Link>
         <Link href={"/#showcase"}>Showcase</Link>
-        <Link href={"/#about"}>Contact</Link>
+        <Link href={"/contact"}>Contact</Link>
       </nav>
       <div className="flex items-center gap-2">
         {social_links.map((link) => (
