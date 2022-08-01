@@ -20,7 +20,7 @@ a {
 }
 
 button {
-  @apply mt-7 p-2 px-5 rounded-3xl text-sm shadow-lg bg-slate-800 text-white;
+  @apply mt-7 p-2 px-5 rounded-3xl text-xs md:text-sm shadow-lg bg-slate-800 text-white;
 }
 
 .label-inp {

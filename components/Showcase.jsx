@@ -5,14 +5,14 @@ import { motion } from "framer-motion";
 const ShowCase = () => {
   const router = useRouter();
   return (
-    <section id="showcase" className="py-28 px-24 bg-gray-50/80">
+    <section
+      id="showcase"
+      className="py-28 px-[7%] flex flex-col items-center bg-gray-50/70"
+    >
       <h1 className="title"> Showcase</h1>
-      <div className="projects-wrapper w-full grid grid-cols-3 gap-4 py-10">
+      <div className="projects-wrapper w-full grid grid-cols-1 md:grid-cols-3 gap-4 py-10">
         {projects.map((project, i) => (
           <motion.div
-            onClick={() => {
-              router.push(`/p/${project.id}`);
-            }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             key={i}
@@ -34,25 +34,13 @@ const ShowCase = () => {
               </div>
               <p className="text-sm text-slate-500 mt-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-                facilis ab similique totam fugit fugiat enim voluptatibus Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Quis facilis
-                ab similique totam fugit fugiat enim voluptatibus Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Quis facilis ab
-                similique totam fugit fugiat enim voluptatibus Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Quis facilis ab similique
-                totam fugit fugiat enim voluptatibus placeat{" "}
+                facilis ab sing elit. Quis facilis ab similique totam fugit
+                fugiat enim voluptatibus placeat{" "}
               </p>
             </div>
           </motion.div>
         ))}
       </div>
-      <button
-        onClick={() => {
-          router.push("/showcase-more");
-        }}
-      >
-        Show more
-      </button>
     </section>
   );
 };

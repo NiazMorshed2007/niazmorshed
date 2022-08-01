@@ -1,11 +1,14 @@
 import React from "react";
+import AnimatedLetters from "../components/AnimationLetters";
 import Layout from "../layout/Layout";
 
 const Contact = () => {
   return (
     <Layout>
-      <div className="pt-40 px-20">
-        <h1 className=" text-4xl">Got project ? Give a wave 👋</h1>
+      <div className="py-40 px-[7%]">
+        <h1 className=" text-4xl">
+          <AnimatedLetters title={"Got project? Let's build!!"} />
+        </h1>
         <form className="md:w-1/2 w-full mt-16">
           <div className="label-inp">
             <input name="email" required id="name" type="text" />

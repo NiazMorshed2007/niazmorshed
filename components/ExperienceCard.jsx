@@ -1,8 +1,8 @@
 import React from "react";
 
-const ExperienceCard = ({ name, img, role, type, lifetime }) => {
+const ExperienceCard = ({ name, img, des, role, type, lifetime }) => {
   return (
-    <div className="uqidev w-4/12 p-3 py-7 rounded-xl border-gray-300/70 border">
+    <div className="uqidev p-3 py-7 rounded-xl border-gray-300/70 border">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-3">
           <img
@@ -22,18 +22,7 @@ const ExperienceCard = ({ name, img, role, type, lifetime }) => {
           </div>
         </div>
       </div>
-      <div className="mt-4 text-[12.5px]  ">
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
-          aspernatur corrupti, ipsam ut quasi obcaecati voluptatum. Aut eos ab,
-          obcaecati et perferendis sapiente corrupti possimus non voluptatem
-          velit? Doloremque, maxime!
-        </p>
-        <p className="mt-3">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-          voluptatum sapiente aut provident ex tenetur commodi, veniam, earum
-        </p>
-      </div>
+      <div className="mt-4 text-[12.5px]  ">{des}</div>
     </div>
   );
 };

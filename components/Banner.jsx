@@ -1,4 +1,5 @@
 import React from "react";
+import AnimatedLetters from "./AnimationLetters";
 
 const Banner = () => {
   return (
@@ -17,24 +18,26 @@ const Banner = () => {
         style={{
           backgroundImage: "url(/assets/pattern.svg)",
         }}
-        className="banner justify-between backdrop-blur-sm relative flex items-center bg-slate-100/50 px-24 w-full h-screen"
+        className="banner justify-between backdrop-blur-sm relative flex items-center bg-slate-100/50 px-5 md:px-24 w-full h-screen"
       >
-        <div className="w-1/2 pt-5">
-          <h1 className="text-6xl font-base mb-2">Niaz Morshed</h1>
-          <h2 className="text-lg">
+        <div className="md:w-1/2 w-full pt-5">
+          <h1 className="md:text-6xl text-4xl font-base mb-2">
+            <AnimatedLetters title={"Niaz Morshed"} />
+          </h1>
+          <h2 className="md:text-lg text-sm">
             Front End Developer based on{" "}
             <span className=" text-cyan-600 underline underline-offset-4 decoration-cyan-500">
               React.js
             </span>
           </h2>
-          <p className="mt-4 font-base leading-5 text-[12.5px]">
+          <p className="mt-4 font-base leading-5 text-[11.5px] md:text-[12.5px]">
             I build the User Interfaces for the modern web. I have been working
             since 2021 as a front-end developer with a variety of skills. Over
             time, I've worked with 2 different companies as a remote front-end
             React developer and done some interesting projects with team members
             at the age of 14.....
           </p>
-          <button>Explore</button>
+          <button>Download Resume</button>
         </div>
       </div>
     </div>
