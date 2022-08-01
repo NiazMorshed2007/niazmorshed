@@ -7,7 +7,7 @@ const ShowCase = () => {
   return (
     <section id="showcase" className="py-28 px-24 bg-gray-50/80">
       <h1 className="title"> Showcase</h1>
-      <div className="projects-wrapper w-full grid grid-rows-4 grid-cols-3 gap-4 py-10">
+      <div className="projects-wrapper w-full grid grid-cols-3 gap-4 py-10">
         {projects.map((project, i) => (
           <motion.div
             onClick={() => {
@@ -34,8 +34,13 @@ const ShowCase = () => {
               </div>
               <p className="text-sm text-slate-500 mt-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-                facilis ab similique totam fugit fugiat enim voluptatibus
-                placeat{" "}
+                facilis ab similique totam fugit fugiat enim voluptatibus Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Quis facilis
+                ab similique totam fugit fugiat enim voluptatibus Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Quis facilis ab
+                similique totam fugit fugiat enim voluptatibus Lorem ipsum dolor
+                sit amet consectetur adipisicing elit. Quis facilis ab similique
+                totam fugit fugiat enim voluptatibus placeat{" "}
               </p>
             </div>
           </motion.div>
