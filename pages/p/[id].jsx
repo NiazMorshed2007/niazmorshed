@@ -54,12 +54,21 @@ const Project = () => {
               </p>
             </div>
           </motion.div>
-          <motion.img
+          <iframe
+            height="380"
+            className="w-1/2 rounded-lg"
+            src="https://www.youtube.com/embed/Qn8k0YsutsI"
+            title="Meet Quire:  Boost Your Team Productivity"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          {/* <motion.img
             layoutId={id}
             className="w-1/2 rounded-lg"
             src={project && project.photo}
             alt=""
-          />
+          /> */}
         </div>
       </div>
     </Layout>

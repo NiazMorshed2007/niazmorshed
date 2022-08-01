@@ -5,12 +5,9 @@ import { motion } from "framer-motion";
 const ShowCase = () => {
   const router = useRouter();
   return (
-    <section id="showcase" className="py-28 px-20 bg-gray-50/80">
-      <h1 className="title">
-        {" "}
-        <span className="text-5xl text-indigo-500">S</span>howcase
-      </h1>
-      <div className="projects-wrapper border-b border-dashed flex items-center justify-around flex-wrap gap-10 py-10">
+    <section id="showcase" className="py-28 px-24 bg-gray-50/80">
+      <h1 className="title"> Showcase</h1>
+      <div className="projects-wrapper w-full grid grid-rows-4 grid-cols-3 gap-4 py-10">
         {projects.map((project, i) => (
           <motion.div
             onClick={() => {
@@ -18,11 +15,10 @@ const ShowCase = () => {
             }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            style={{ width: "340px" }}
             key={i}
-            className="project cursor-pointer transition-all hover:scale-105 hover:shad rounded-lg overflow-hidden shadow-xl"
+            className="project cursor-pointer transition-all hover:border-slate-400 rounded-lg overflow-hidden border border-slate-300"
           >
-            <motion.img
+            {/* <motion.img
               key="child"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -30,7 +26,7 @@ const ShowCase = () => {
               exit={{ scale: 1 }}
               src={project.photo}
               alt="photo"
-            />
+            /> */}
             <div className="content p-3">
               <div className="flex items-center justify-between py-1 pb-2 border-b border-dashed">
                 <h1 className="text-lg">{project.name}</h1>

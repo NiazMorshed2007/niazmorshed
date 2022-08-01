@@ -1,27 +1,40 @@
 import React from "react";
-import triangle from "../assets/triangle.png";
-import code from "../assets/code.png";
-import Image from "next/image";
 
 const Banner = () => {
   return (
     <div className="banner-wrapper overflow-hidden relative">
-      <div className="absolute rotate-12 top-14 left-1/2">
+      <div class="absolute right-[28%] top-0 hidden h-[150px] w-[200px] rotate-12 rounded-3xl bg-gradient-to-l from-blue-600 to-sky-400 opacity-20 blur-3xl filter dark:block dark:opacity-30 lg:top-44 lg:-right-20 lg:h-72 lg:w-[350px] xl:h-80 xl:w-[500px]"></div>
+      <div class="absolute left-[28%] top-28 hidden rotate-12 rounded-3xl bg-sky-800 opacity-90 blur-3xl filter dark:opacity-30 lg:h-32 lg:w-[450px] dark:lg:block xl:h-44 xl:w-[600px]"></div>
+      <div class="absolute bottom-44 -left-64 hidden h-[150px] w-[900px] -rotate-45 rounded-3xl bg-gradient-to-r from-violet-600 to-indigo-800 opacity-30 blur-3xl filter dark:block lg:bottom-24 lg:-left-20 lg:h-28 lg:w-[250px] lg:-rotate-12 lg:opacity-20 xl:h-40 xl:w-[400px]"></div>
+      {/* <div className="absolute rotate-12 top-14 left-1/2">
         <Image width={200} height={200} src={triangle} alt="triangle" />
       </div>
       <div className="absolute rotate-12 bottom-14 right-32">
         <Image width={250} height={250} src={code} alt="code" />
-      </div>
-      <div className="absolute w-56 h-56 border-8 border-violet-800 rounded-full bottom-10 left-10"></div>
-      <div className="banner justify-center backdrop-blur-sm relative flex items-center bg-slate-100/50 px-14 w-full h-screen">
-        <div className="w-1/2 text-center pt-5">
-          <p>Hello there, </p>
-          <h1 className="text-7xl font-semibold">I am Niaz Morshed</h1>
-          <h2 className="mt-4 font-medium text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
-            itaque praesentium dese
+      </div> */}
+      {/* <div className="absolute w-56 h-56 border-8 border-violet-800 rounded-full bottom-10 left-10"></div> */}
+      <div
+        style={{
+          backgroundImage: "url(/assets/pattern.svg)",
+        }}
+        className="banner justify-between backdrop-blur-sm relative flex items-center bg-slate-100/50 px-24 w-full h-screen"
+      >
+        <div className="w-1/2 pt-5">
+          <h1 className="text-6xl font-base mb-2">Niaz Morshed</h1>
+          <h2 className="text-lg">
+            Front End Developer based on{" "}
+            <span className=" text-cyan-600 underline underline-offset-4 decoration-cyan-500">
+              React.js
+            </span>
           </h2>
-          <button>Explore More</button>
+          <p className="mt-4 font-base leading-5 text-[12.5px]">
+            I build the User Interfaces for the modern web. I have been working
+            since 2021 as a front-end developer with a variety of skills. Over
+            time, I've worked with 2 different companies as a remote front-end
+            React developer and done some interesting projects with team members
+            at the age of 14.....
+          </p>
+          <button>Explore</button>
         </div>
       </div>
     </div>

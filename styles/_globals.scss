@@ -16,11 +16,36 @@ a {
 }
 
 .title {
-  @apply text-3xl border-b border-dashed;
+  @apply text-3xl;
 }
 
 button {
-  @apply mt-7 p-3 px-6 rounded-3xl shadow-lg bg-violet-800 text-white;
+  @apply mt-7 p-2 px-5 rounded-3xl text-sm shadow-lg bg-slate-800 text-white;
+}
+
+.label-inp {
+  @apply relative w-full mb-6 md:mb-12;
+  .anim-label {
+    @apply text-xs -top-2 md:-top-6;
+  }
+  input,
+  textarea {
+    @apply border-b border-dashed border-slate-400 p-1 pl-0 w-full outline-none;
+    &:focus {
+      @apply border-dashed;
+    }
+    &:focus ~ label {
+      @extend .anim-label;
+    }
+    &:valid ~ label {
+      @extend .anim-label;
+      // @apply -top-6;
+    }
+  }
+  label {
+    @apply text-[11px] md:text-sm absolute text-slate-500 top-0 left-0 pointer-events-none;
+    transition: all 0.25s ease-in-out;
+  }
 }
 
 * {

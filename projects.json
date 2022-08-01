@@ -28,5 +28,10 @@
     "name": "Uqidev Website",
     "id": "project-uqidev",
     "photo": "/uqidev-project.png"
+  },
+  {
+    "name": "HR Management Sysytem",
+    "id": "project-hr",
+    "photo": "/uqidev-project.png"
   }
 ]

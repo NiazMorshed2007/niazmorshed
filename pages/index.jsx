@@ -1,5 +1,4 @@
 import Head from "next/head";
-import About from "../components/AboutMe";
 import Banner from "../components/Banner";
 import Experience from "../components/Experience";
 import ShowCase from "../components/Showcase";
@@ -16,7 +15,6 @@ export default function Home() {
 
       <Layout>
         <Banner />
-        <About />
         <Experience />
         <ShowCase />
       </Layout>

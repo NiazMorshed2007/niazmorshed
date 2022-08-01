@@ -3,13 +3,21 @@
 @import "./header";
 
 body {
-  font-family: $nunito;
+  font-family: $montserrat;
+  font-stretch: 111%;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+.projects-wrapper {
+  & > :nth-child(1),
+  & > :nth-child(4),
+  & > :nth-child(7) {
+    @apply row-span-2;
+  }
+}
 .project {
   @apply relative;
   //   &:hover {
