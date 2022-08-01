@@ -59,9 +59,9 @@ const Project = () => {
             className="w-1/2 rounded-lg"
             src="https://www.youtube.com/embed/Qn8k0YsutsI"
             title="Meet Quire:  Boost Your Team Productivity"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
           {/* <motion.img
             layoutId={id}
