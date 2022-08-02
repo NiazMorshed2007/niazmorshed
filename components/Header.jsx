@@ -13,7 +13,7 @@ const Header = () => {
     <header
       className={`flex fixed pr-24 transition-all w-full ${
         sticky ? "&apos py-3 bg-white/80 shadow-lg backdrop-blur-lg" : "py-8"
-      } items-center justify-between  px-[5%] z-10`}
+      } items-center justify-between  px-[3.5%] z-10`}
     >
       <Link href={"/"}>
         <img

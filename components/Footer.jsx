@@ -23,7 +23,7 @@ const Footer = () => {
     },
   ];
   return (
-    <footer className="border-t p-4 flex md:flex-row flex-col items-center justify-between px-[4%]">
+    <footer className="border-t p-4 flex md:flex-row flex-col items-center justify-between px-[4%] pr-[8%]">
       <div className="flex items-center md:flex-row flex-col gap-3 mb-3 md:mb-0 md:gap-6 text-xs">
         <Link href={"/"}>
           <img
