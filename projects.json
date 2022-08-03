@@ -8,7 +8,7 @@
   {
     "name": "Project Management System",
     "id": "project-pms",
-    "des": "A dynamic full stack E-commerce application for Islamiboi. Helps readers and writers to publish and purchase books from web through this web app. My role was to manage the UI and integrate the APIs of this app.",
+    "des": "A Project Management software for any teams to manage their projects and tasks. Flexibility of connecting with project members with interactive tree, Kanban board and timeline view. It will help teams to manage and work with their projects faster by syncing with other members.",
     "photo": "/pms.png"
   },
   {
@@ -21,18 +21,12 @@
   {
     "name": "HR Management Sysytem",
     "id": "project-hr",
-    "des": "A dynamic full stack E-commerce application for Islamiboi. Helps readers and writers to publish and purchase books from web through this web app. My role was to manage the UI and integrate the APIs of this app.",
+    "des": "Next level HR management system created for Maks Inc. It’s a dynamic full stack and advanced admin panel where admins can manage their whole company work.",
     "photo": "/uqidev-project.png"
   },
   {
     "name": "Chat App",
     "id": "project-chat",
-    "des": "A dynamic full stack E-commerce application for Islamiboi. Helps readers and writers to publish and purchase books from web through this web app. My role was to manage the UI and integrate the APIs of this app.",
-    "photo": "https://firebasestorage.googleapis.com/v0/b/photo-gallery-c74f3.appspot.com/o/chat1.png?alt=media&token=c6bd84fb-7eb9-4c84-8459-69a6e127a3c2"
-  },
-  {
-    "name": "Al Quran",
-    "id": "al-quran",
     "des": "A dynamic full stack E-commerce application for Islamiboi. Helps readers and writers to publish and purchase books from web through this web app. My role was to manage the UI and integrate the APIs of this app.",
     "photo": "https://firebasestorage.googleapis.com/v0/b/photo-gallery-c74f3.appspot.com/o/chat1.png?alt=media&token=c6bd84fb-7eb9-4c84-8459-69a6e127a3c2"
   },
