@@ -14,8 +14,7 @@ html {
 
 .projects-wrapper {
   & > :nth-child(1),
-  & > :nth-child(4),
-  & > :nth-child(7) {
+  & > :nth-child(4) {
     @apply row-span-2;
   }
 }

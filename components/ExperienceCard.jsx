@@ -13,10 +13,12 @@ const ExperienceCard = ({ name, img, des, role, type, lifetime }) => {
             alt=""
           />
           <div>
-            <div className="flex items-center gap-3">
+            <div className="flex md:flex-row flex-col md:items-center gap-1 md:gap-3">
               <h1 className="text-sm font-semibold">{name}</h1>
-              <span className="text-[10px]">{"(" + type + ")"}</span>
-              <span className="text-[10px]">{"[" + lifetime + "]"}</span>
+              <div className="flex md:mb-0 mb-1 items-center gap-3">
+                <span className="text-[10px]">{"(" + type + ")"}</span>
+                <span className="text-[10px]">{"[" + lifetime + "]"}</span>
+              </div>
             </div>
             <p className=" text-xs">{role}</p>
           </div>

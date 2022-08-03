@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <Layout>
       <div className="py-40 px-[7%]">
-        <h1 className=" text-4xl">
+        <h1 className="text-2xl md:text-4xl">
           <AnimatedLetters title={"Got project? Let's build!!"} />
         </h1>
         <form className="md:w-1/2 w-full mt-16">

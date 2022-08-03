@@ -24,7 +24,7 @@ const letterAni = {
 const AnimatedLetters = ({ title, disabled = false }) => {
   return (
     <motion.span
-      className="row-title overflow-hidden flex"
+      className="row-title overflow-hidden flex flex-wrap"
       variants={disabled ? null : banner}
       initial="initial"
       animate="animate"
