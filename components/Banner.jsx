@@ -7,13 +7,6 @@ const Banner = () => {
       <div className="absolute animate-pulse right-[28%] top-0 hidden h-[150px] w-[200px] rotate-12 rounded-3xl bg-gradient-to-l from-blue-600 to-sky-400 opacity-20 blur-3xl filter dark:block dark:opacity-30 lg:top-44 lg:-right-20 lg:h-72 lg:w-[350px] xl:h-80 xl:w-[500px]"></div>
       <div className="absolute animate-pulse left-[28%] top-28 hidden rotate-12 rounded-3xl bg-sky-800 opacity-90 blur-3xl filter dark:opacity-30 lg:h-32 lg:w-[450px] dark:lg:block xl:h-44 xl:w-[600px]"></div>
       <div className="absolute animate-pulse bottom-44 -left-64 hidden h-[150px] w-[900px] -rotate-45 rounded-3xl bg-gradient-to-r from-violet-600 to-indigo-800 opacity-30 blur-3xl filter dark:block lg:bottom-24 lg:-left-20 lg:h-28 lg:w-[250px] lg:-rotate-12 lg:opacity-20 xl:h-40 xl:w-[400px]"></div>
-      {/* <div className="absolute rotate-12 top-14 left-1/2">
-        <Image width={200} height={200} src={triangle} alt="triangle" />
-      </div>
-      <div className="absolute rotate-12 bottom-14 right-32">
-        <Image width={250} height={250} src={code} alt="code" />
-      </div> */}
-      {/* <div className="absolute w-56 h-56 border-8 border-violet-800 rounded-full bottom-10 left-10"></div> */}
       <div
         style={{
           backgroundImage: "url(/assets/pattern.svg)",
@@ -37,7 +30,9 @@ const Banner = () => {
             React developer and done some interesting projects with team members
             at the age of 14.....
           </p>
-          <button>Download Resume</button>
+          <a target={"_blank"} href="/Niaz Morshed's Resume.pdf">
+            <button>Download Resume</button>
+          </a>
         </div>
       </div>
     </div>
