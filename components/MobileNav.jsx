@@ -12,7 +12,8 @@ const MobileNavigation = (props) => {
   ];
   return (
     <div
-      className={`mask z-20 h-screen transition-all w-screen ${
+      style={{ zIndex: 5 }}
+      className={`mask h-screen transition-all w-screen ${
         mobileNavOpened ? "opacity-100" : "opacity-0 invisible"
       } backdrop-blur bg-slate-200/80 fixed top-0 left-0`}
     >

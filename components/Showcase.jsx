@@ -3,7 +3,6 @@ import projects from "../projects.json";
 import { motion } from "framer-motion";
 
 const ShowCase = () => {
-  const router = useRouter();
   return (
     <section
       id="showcase"
@@ -20,25 +19,12 @@ const ShowCase = () => {
             key={i}
             className="project cursor-pointer hover:shadow-md shadow-sky-300 transition-all bg-white/20 backdrop-blur-sm hover:border-slate-400/70 rounded-lg overflow-hidden border border-slate-300"
           >
-            {/* <motion.img
-              key="child"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              layoutId={project.id}
-              exit={{ scale: 1 }}
-              src={project.photo}
-              alt="photo"
-            /> */}
             <div className="content p-3">
               <div className="flex items-center justify-between py-1 pb-2 border-b border-slate-300">
                 <h1 className="text-lg">{project.name}</h1>
                 <div className="live-preview text-xs">Preview</div>
               </div>
-              <p className="text-sm text-slate-900 mt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-                facilis ab sing elit. Quis facilis ab similique totam fugit
-                fugiat enim voluptatibus placeat{" "}
-              </p>
+              <p className="text-sm text-slate-900 mt-2">{project.des}</p>
             </div>
           </motion.div>
         ))}

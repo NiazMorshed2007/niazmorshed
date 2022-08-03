@@ -2,37 +2,44 @@
   {
     "name": "Islami Boi",
     "id": "project-islamiboi",
+    "des": "A dynamic full stack E-commerce application for Islamiboi. Helps readers and writers to publish and purchase books from web through this web app. My role was to manage the UI and integrate the APIs of this app.",
     "photo": "https://firebasestorage.googleapis.com/v0/b/photo-gallery-c74f3.appspot.com/o/shomba-banner.png?alt=media&token=e9a5783e-5c1c-4a8d-80dd-bc98b27838aa"
   },
   {
     "name": "Project Management System",
     "id": "project-pms",
+    "des": "A dynamic full stack E-commerce application for Islamiboi. Helps readers and writers to publish and purchase books from web through this web app. My role was to manage the UI and integrate the APIs of this app.",
     "photo": "/pms.png"
   },
   {
     "name": "Shomba",
     "id": "project-shomba",
+    "des": "A dynamic full stack E-commerce application for Islamiboi. Helps readers and writers to publish and purchase books from web through this web app. My role was to manage the UI and integrate the APIs of this app.",
     "photo": "https://firebasestorage.googleapis.com/v0/b/photo-gallery-c74f3.appspot.com/o/shomba-banner.png?alt=media&token=e9a5783e-5c1c-4a8d-80dd-bc98b27838aa"
   },
 
   {
     "name": "HR Management Sysytem",
     "id": "project-hr",
+    "des": "A dynamic full stack E-commerce application for Islamiboi. Helps readers and writers to publish and purchase books from web through this web app. My role was to manage the UI and integrate the APIs of this app.",
     "photo": "/uqidev-project.png"
   },
   {
     "name": "Chat App",
     "id": "project-chat",
+    "des": "A dynamic full stack E-commerce application for Islamiboi. Helps readers and writers to publish and purchase books from web through this web app. My role was to manage the UI and integrate the APIs of this app.",
     "photo": "https://firebasestorage.googleapis.com/v0/b/photo-gallery-c74f3.appspot.com/o/chat1.png?alt=media&token=c6bd84fb-7eb9-4c84-8459-69a6e127a3c2"
   },
   {
     "name": "Al Quran",
     "id": "al-quran",
+    "des": "A dynamic full stack E-commerce application for Islamiboi. Helps readers and writers to publish and purchase books from web through this web app. My role was to manage the UI and integrate the APIs of this app.",
     "photo": "https://firebasestorage.googleapis.com/v0/b/photo-gallery-c74f3.appspot.com/o/chat1.png?alt=media&token=c6bd84fb-7eb9-4c84-8459-69a6e127a3c2"
   },
   {
     "name": "Nakuti",
     "id": "project-nakuti",
+    "des": "A dynamic full stack E-commerce application for Islamiboi. Helps readers and writers to publish and purchase books from web through this web app. My role was to manage the UI and integrate the APIs of this app.",
     "photo": "https://firebasestorage.googleapis.com/v0/b/photo-gallery-c74f3.appspot.com/o/Screenshot%202022-05-26%20115437.png?alt=media&token=d12140aa-9f60-4c8e-92c3-4fb7965977ac"
   }
 ]
