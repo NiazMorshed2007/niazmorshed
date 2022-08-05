@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import projects from "../projects.json";
+import projects from "../static/projects.json";
 import { motion } from "framer-motion";
 
 const ShowCase = () => {
@@ -8,7 +8,7 @@ const ShowCase = () => {
       id="showcase"
       className="py-28 px-[7%] flex flex-col items-center relative bg-gray-50/70"
     >
-      <div className="absolute left-[8%] top-[40%] hidden rotate-12 rounded-3xl bg-sky-400/50 opacity-30 blur-3xl filter dark:opacity-30 lg:h-32 lg:w-[450px] dark:lg:block xl:h-44 xl:w-[900px]"></div>
+      <div className="absolute left-[8%] top-[40%] hidden rotate-12 rounded-3xl bg-sky-400/50 opacity-30 blur-3xl filter dark:opacity-30 lg:h-32 lg:w-[450px] dark:lg:block xl:h-44 xl:w-[900px]"/>
 
       <h1 className="title"> Showcase</h1>
       <div className="projects-wrapper w-full grid grid-cols-1 md:grid-cols-3 gap-4 py-10">
@@ -21,7 +21,7 @@ const ShowCase = () => {
           >
             <div className="content p-3">
               <div className="py-1 pb-2 border-b border-slate-300">
-                <h1 className="text-lg">{project.name}</h1>
+                <h1 className="text-lg font-medium">- {project.name} -</h1>
               </div>
               <div className="mt-4">
                 <img className="rounded border" src={project.photo} alt="" />

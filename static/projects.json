@@ -3,7 +3,7 @@
     "name": "Islami Boi",
     "id": "project-islamiboi",
     "des": "A dynamic full stack E-commerce application for Islamiboi. Helps readers and writers to publish and purchase books from web through this web app. My role was to manage the UI and integrate the APIs of this app.",
-    "photo": "https://firebasestorage.googleapis.com/v0/b/photo-gallery-c74f3.appspot.com/o/shomba-banner.png?alt=media&token=e9a5783e-5c1c-4a8d-80dd-bc98b27838aa"
+    "photo": "/islamiboi.png"
   },
   {
     "name": "Project Management System",
@@ -22,13 +22,13 @@
     "name": "HR Management Sysytem",
     "id": "project-hr",
     "des": "Next level HR management system created for Maks Inc. It’s a dynamic full stack and advanced admin panel where admins can manage their whole company work.",
-    "photo": "/uqidev-project.png"
+    "photo": "/hrm.png"
   },
   {
     "name": "Chat App",
     "id": "project-chat",
-    "des": "A dynamic full stack E-commerce application for Islamiboi. Helps readers and writers to publish and purchase books from web through this web app. My role was to manage the UI and integrate the APIs of this app.",
-    "photo": "https://firebasestorage.googleapis.com/v0/b/photo-gallery-c74f3.appspot.com/o/chat1.png?alt=media&token=c6bd84fb-7eb9-4c84-8459-69a6e127a3c2"
+    "des": "A Realtime messaging application where users can talk to each other via text message. This app is powered with Firebase, React and TailwindCss v3..",
+    "photo": "/chat.png"
   },
   {
     "name": "Nakuti",
