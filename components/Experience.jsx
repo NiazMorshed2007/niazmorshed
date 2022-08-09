@@ -7,7 +7,7 @@ const Experience = () => {
       img: "/uqidev.png",
       role: "Front End Developer",
       type: "Full Time",
-      des: "Working as a React Front End Developer. Developing dynamic and complex user interfaces. Have experience of working with E-commerce website. Connected with senior developers. Learned and researched new tech sacks. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisfacilis ab sing elit. Quis facilis ab similique totam fugit fugiat enim voluptatibus pla",
+      des: "Working as a React Front End Developer. Developing dynamic and complex user interfaces. Have experience of working with E-commerce website. Connected with senior developers. Learned and researched new tech sacks.",
       lifetime: "Jun 2021 - current",
     },
     {
