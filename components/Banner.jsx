@@ -25,9 +25,9 @@ const Banner = () => {
           </h2>
           <p className="mt-4 font-base leading-5 text-[11.5px] md:text-[12.5px]">
             I build the User Interfaces for the modern web. I have been working
-            since 2021 as a front-end developer with a variety of skills. Over
+            since 2020 as a front-end developer with a variety of skills. Over
             time, I've worked with 2 different companies as a remote front-end
-            React developer and done some interesting projects with team members.
+            React developer and done some interesting projects.
           </p>
           <a target={"_blank"} href="/Niaz Morshed's Resume.pdf">
             <button>Preview Resume</button>
