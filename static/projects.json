@@ -20,7 +20,7 @@
   {
     "name": "Shomba",
     "id": "project-shomba",
-    "des": "A dynamic full stack E-commerce application for Islamiboi. Helps readers and writers to publish and purchase books through this web app. My role was to manage the UI and integrate the APIs of this app.",
+    "des": "An E-commerce website to purchase dairy food products from home in Bogura. This websites showcases all the products SHOMBA have and receive order from users and delivers to the customer.",
     "photo": "https://firebasestorage.googleapis.com/v0/b/photo-gallery-c74f3.appspot.com/o/shomba-banner.png?alt=media&token=e9a5783e-5c1c-4a8d-80dd-bc98b27838aa",
     "status":  "Featured",
     "live": "https://www.shombadoi.cf/",
