@@ -27,8 +27,7 @@ const Banner = () => {
             I build the User Interfaces for the modern web. I have been working
             since 2021 as a front-end developer with a variety of skills. Over
             time, I've worked with 2 different companies as a remote front-end
-            React developer and done some interesting projects with team members
-            at the age of 14.....!!
+            React developer and done some interesting projects with team members.
           </p>
           <a target={"_blank"} href="/Niaz Morshed's Resume.pdf">
             <button>Preview Resume</button>

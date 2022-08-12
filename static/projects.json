@@ -5,7 +5,8 @@
     "des": "A dynamic full stack E-commerce application for Islamiboi. Helps readers and writers to publish and purchase books from web through this web app. My role was to manage the UI and integrate the APIs of this app.",
     "photo": "/islamiboi2.png",
     "status":  "Featured",
-    "live": ""
+    "live": "http://islamiboi.com/",
+    "git": ""
   },
   {
     "name": "Project Management System",
@@ -13,8 +14,8 @@
     "des": "A Project Management software for any teams to manage their projects and tasks. Flexibility of connecting with project members with interactive tree, Kanban board and timeline view.",
     "photo": "/pms.png",
     "status":  "On going",
-    "live": ""
-
+    "live": "https://pms-chi.vercel.app/",
+    "git": "https://github.com/NiazMorshed2007/project-management"
   },
   {
     "name": "Shomba",
@@ -22,8 +23,8 @@
     "des": "A dynamic full stack E-commerce application for Islamiboi. Helps readers and writers to publish and purchase books from web through this web app. My role was to manage the UI and integrate the APIs of this app.",
     "photo": "https://firebasestorage.googleapis.com/v0/b/photo-gallery-c74f3.appspot.com/o/shomba-banner.png?alt=media&token=e9a5783e-5c1c-4a8d-80dd-bc98b27838aa",
     "status":  "Featured",
-    "live": ""
-
+    "live": "https://www.shombadoi.cf/",
+    "git": ""
   },
 
   {
@@ -32,7 +33,8 @@
     "des": "Next level HR management system created for Maks Inc. It’s a dynamic full stack and advanced HR Management system where admins can manage their whole company work.",
     "photo": "/hrm.png",
     "status":  "Featured",
-    "live": ""
+    "live": "",
+    "git": ""
   },
   {
     "name": "Chat App",
@@ -40,7 +42,8 @@
     "des": "A Realtime messaging application where users can talk to each other via text message. This app is powered with Firebase, React and TailwindCss v3..",
     "photo": "/chat.png",
     "status":  "Featured",
-    "live": ""
+    "live": "https://chat-app-ef65e.web.app/",
+    "git": "https://github.com/NiazMorshed2007/chat-app"
   },
   {
     "name": "Nakuti",
@@ -48,6 +51,7 @@
     "des": "A dynamic full stack E-commerce application for Islamiboi. Helps readers and writers to publish and purchase books from web through this web app. My role was to manage the UI and integrate the APIs of this app.",
     "photo": "https://firebasestorage.googleapis.com/v0/b/photo-gallery-c74f3.appspot.com/o/Screenshot%202022-05-26%20115437.png?alt=media&token=d12140aa-9f60-4c8e-92c3-4fb7965977ac",
     "status":  "Featured",
-    "live": ""
+    "live": "https://nakuti.cf/",
+    "git": ""
   }
 ]

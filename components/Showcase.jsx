@@ -16,7 +16,7 @@ const ShowCase = () => {
                 {projects.map((project, i) => (
                     <div
                         key={i}
-                        className="project cursor-pointer h-max hover:shadow-md shadow-sky-300 transition-all bg-white/20 backdrop-blur-sm hover:border-slate-400/70 rounded-lg overflow-hidden border border-slate-300"
+                        className="project h-max hover:shadow-md shadow-sky-300 transition-all bg-white/20 backdrop-blur-sm hover:border-slate-400/70 rounded-lg overflow-hidden border border-slate-300"
                     >
                         <div className="content p-3">
                             <div className="py-1 pb-2 border-b border-slate-300">
@@ -36,16 +36,21 @@ const ShowCase = () => {
                                             <span className="font-medium">Status: </span>{" "}
                                             <span className={"text-sky-600"}>{project.status}</span>
                                         </p>
-                                        <a rel={"noreferrer"} className={"text-sm p-2 border-l rounded-full bg-black/95 text-white"}
-                                           target={"_blank"} href={project.link}><AiOutlineLink/></a>
-                                        <a rel={"noreferrer"} className={"text-sm p-1 rounded-full bg-black/95 text-white"}
-                                           target={"_blank"} href={project.link}><BsGithub/></a>
+                                        <a rel={"noreferrer"} className={`text-sm p-2 ${project.live === "" && "pointer-events-none opacity-40"} border-l rounded-full bg-black/95 text-white`}
+                                           target={"_blank"} href={project.live}><AiOutlineLink/></a>
+                                        <a rel={"noreferrer"} className={`text-sm p-1 ${project.git === "" && "pointer-events-none opacity-40"} rounded-full bg-black/95 text-white`}
+                                           target={"_blank"} href={project.git}><BsGithub/></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 ))}
+            </div>
+            <div className="flex items-center justify-center">
+                <a href="https://github.com/NiazMorshed2007?tab=repositories" target={"_blank"} rel={"noreferrer"}>
+                <button className={"hover:shadow-2xl transition-all"}>View All Works on Github!</button>
+                </a>
             </div>
         </section>
     );
