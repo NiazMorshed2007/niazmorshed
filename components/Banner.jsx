@@ -29,9 +29,9 @@ const Banner = () => {
             time, I've worked with 2 different companies as a remote front-end
             React developer and done some interesting projects.
           </p>
-          {/*<a target={"_blank"} href="/Niaz Morshed's Resume.pdf">*/}
+          <a target={"_blank"} href="/Niaz Morshed.pdf">
             <button>Preview Resume</button>
-          {/*</a>*/}
+          </a>
         </div>
       </div>
     </div>
