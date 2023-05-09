@@ -2,12 +2,14 @@
     {
         "name": "Md. Shahriar Hossain",
         "avatar": "/shetu.jpg",
+        "link": "https://www.linkedin.com/in/md-shahariar-hossen-9129b5166/",
         "description": "Senior Software Engineer at Cefalo",
         "recommendation": "Niaz Morshed is one of the best developers i have ever seen who much progressed in such a tenure age. I worked with him in a project where i found him dedicated, highly motivated and having on-time finish attitude. I believe he will a great asset for any company and wish him all the very best."
     },
     {
         "name": "Samsul Haque Mohammad Sohel",
         "avatar": "/sohel.jpg",
+        "link": "https://www.linkedin.com/in/shmsohel/",
         "description": "Microsoft Certified Trainer | Azure Solution Expert | Cloud Specialist",
         "recommendation": "I had the pleasure of working with Niaz Morshed. He demonstrates a strong ability to develop and maintain high-quality, responsive user interfaces using React.js. He has a keen eye for design and is able to create visually appealing interfaces that are easy to navigate. I highly recommend him for any frontend development role that requires expertise in React.js."
     }
