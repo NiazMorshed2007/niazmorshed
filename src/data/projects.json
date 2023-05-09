@@ -2,16 +2,17 @@
     {
     "title": "Endless",
     "description": "Unleash your potentials with endless CMS. A serverless platform to make interactive web apps.",
-    "imageUrl": "/endless.png"
+    "imageUrl": "/endless.png",
+    "url": ""
 },
 {
     "title": "Linkfree",
-    "description": "Unleash your potentials with endless CMS. A serverless platform to make interactive web apps.",
+    "description": "Connect to your audience with a single link. Showcase the content you create and your projects in one place.",
     "imageUrl": "/linkfree.png"
 },
 {
     "title": "React Email",
-    "description": "Unleash your potentials with endless CMS. A serverless platform to make interactive web apps.",
+    "description": "A collection of high-quality, unstyled components for creating beautiful emails using React and TypeScript.",
     "imageUrl": "/resend.png"
 },
 {
@@ -20,8 +21,12 @@
     "imageUrl": "/pms.png"
 },
 {
-    "title": "Endless",
+    "title": "Chat App",
     "description": "Unleash your potentials with endless CMS. A serverless platform to make interactive web apps.",
-    "imageUrl": "/endless.png"
+    "imageUrl": "/chat.png"
+},{
+    "title": "Poetron",
+    "description": "A poem generating AI tool powered by gpt-3.5-turbo ⚡, Provide some context and get a poem written for you.",
+    "imageUrl": "/poetron.png"
 }
 ]

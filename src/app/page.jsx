@@ -1,3 +1,4 @@
+import Cta from './components/Cta'
 import HeroSection from './components/HeroSection'
 import Projects from './components/Projects'
 import RecommendationsSection from './components/Recommendations'
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <Projects />
       <RecommendationsSection />
+      <Cta />
     </main>
   )
 }
