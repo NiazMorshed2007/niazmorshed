@@ -6,7 +6,7 @@ const cinzel = Cinzel_Decorative({ subsets: ['latin'], weight: ['400', '700', '9
 
 const Header = () => {
 
-    const handleButtonClick = () => {
+    const handleOpenEmail = () => {
         const email = 'niazmorshed2007@gmail.com'; // replace with your email address
         window.location.href = `mailto:${email}`;
     };
@@ -20,7 +20,7 @@ const Header = () => {
             {/* <p>Open Source Activity</p> */}
         </nav>
         <div className="flex items-center gap-7 text-sm">
-            <button onClick={handleButtonClick} className="p-2 px-6 rounded-md border border-primary/40 border-md">Drop a message!</button>
+            <button onClick={handleOpenEmail} className="p-2 px-6 rounded-md border border-primary/40 border-md">Drop a message!</button>
             {/* <button>Contact</button> */}
         </div>
     </header>

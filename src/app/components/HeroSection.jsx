@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import { BsArrowDown, BsGithub } from 'react-icons/bs'
 
@@ -13,8 +14,9 @@ const HeroSection = () => {
                 Working with React, Next, JavaScript and TypeScript  💻 |
                 Obessed in building👷‍♂️| Open source contributor  ⚡</p>
             <div className="flex items-center gap-4">
-
-                <button className="p-2 px-6 rounded-full border flex items-center gap-3 border-primary/50 bg-primary/10 transition-all hover:backdrop-blur-sm"><BsGithub /> View Github Profile</button>
+                <Link href={"https://github.com/NiazMorshed2007"} target='_blank'>
+                    <button className="p-2 px-6 rounded-full border flex items-center gap-3 border-primary/50 bg-primary/10 transition-all hover:backdrop-blur-sm"><BsGithub /> View Github Profile</button>
+                </Link>
                 <button className="p-2 px-6 rounded-full border flex items-center gap-3 border-primary/10 bg-primary/5 transition-all hover:backdrop-blur-sm"><div className='w-[10px] h-[10px] bg-green-600 rounded-full'></div> I'm open for job!</button>
             </div>
 
