@@ -15,7 +15,7 @@
         "type": "Full Time",
         "role":"Frontend Developer",
         "imageUrl": "/uqidev.png",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita velit molestias explicabo ipsam autem et esse accusamus voluptate dolorum perferendis maxime, quidem eligendi quasi alias consequatur eius omnis labore.",
+        "description": "At Uqidev, I developed dynamic user interfaces, integrated REST APIs, and gained experience with Redux, SSR, and Next.js for e-commerce websites and admin dashboards. This allowed me to showcase my skills in front-end development and work collaboratively on challenging projects.",
         "start_date": "July 2021",
         "end_date": "Present"
     },
@@ -25,7 +25,7 @@
         "type": "Contract",
         "role":"React.js Developer",
         "imageUrl": "/maks.png",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita velit molestias explicabo ipsam autem et esse accusamus voluptate dolorum perferendis maxime, quidem eligendi quasi alias consequatur eius omnis labore.",
+        "description": "At Maks Inc, I developed the frontend of an HRM system using dynamic and static web pages, REST APIs, Redux, Tailwind, Antd, and SSR. My experience at Maks Inc was a valuable opportunity for me to demonstrate my expertise in front-end development while working with a team on a complex project.",
         "start_date": "July 2021",
         "end_date": "Present"
     },
@@ -35,7 +35,7 @@
         "type": "Part Time",
         "role":"Frontend Developer",
         "imageUrl": "/woiqo.png",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita velit molestias explicabo ipsam autem et esse accusamus voluptate dolorum perferendis maxime, quidem eligendi quasi alias consequatur eius omnis labore.",
+        "description": "As a part-time Frontend Developer at Woiqo, I created responsive websites using HTML, CSS, and SCSS. I utilized Vanilla JS and Gsap for animations. I also gained experience with JavaScript libraries and frameworks, and learned React and Next.js for dynamic website development. This allowed me to expand my skill set and showcase my abilities in front-end development.",
         "start_date": "July 2021",
         "end_date": "Present"
     }
