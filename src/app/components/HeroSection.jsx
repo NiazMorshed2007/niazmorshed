@@ -10,9 +10,13 @@ const HeroSection = () => {
             <h1 className=" tracking-wide text-[13px] font-light">Hi there! 👋 I'm,</h1>
             <h1 className="text-6xl font-semibold mb-5">Niaz Morshed</h1>
             <p className="w-1/2 text-center mb-7 font-light text-slate-400 text-lg">Frontend Developer |
-                Works with React, Next, JavaScript and TypeScript  💻 |
+                Working with React, Next, JavaScript and TypeScript  💻 |
                 Obessed in building👷‍♂️| Open source contributor  ⚡</p>
-            <button className="p-2 px-6 rounded-full border flex items-center gap-3 border-primary bg-primary/10 transition-all hover:backdrop-blur-sm"><BsGithub /> View Github Profile</button>
+            <div className="flex items-center gap-4">
+
+                <button className="p-2 px-6 rounded-full border flex items-center gap-3 border-primary/50 bg-primary/10 transition-all hover:backdrop-blur-sm"><BsGithub /> View Github Profile</button>
+                <button className="p-2 px-6 rounded-full border flex items-center gap-3 border-primary/10 bg-primary/5 transition-all hover:backdrop-blur-sm"><div className='w-[10px] h-[10px] bg-green-600 rounded-full'></div> I'm open for job!</button>
+            </div>
 
             <div className="absolute flex flex-col items-center -translate-x-1/2 gap-3 bottom-10 left-1/2">
                 <BsArrowDown className="text-md animate-bounce" />

@@ -1,0 +1,42 @@
+[
+    {
+        "org_name": "EddieHub",
+        "id": "eddiehub",
+        "type": "volunteer",
+        "role":"Open Source Contributor",
+        "imageUrl": "/eddiehub.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita velit molestias explicabo ipsam autem et esse accusamus voluptate dolorum perferendis maxime, quidem eligendi quasi alias consequatur eius omnis labore.",
+        "start_date": "February 2023",
+        "end_date": "Present"
+    },
+    {
+        "org_name": "Uqidev",
+        "id": "uqidev",
+        "type": "Full Time",
+        "role":"Frontend Developer",
+        "imageUrl": "/uqidev.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita velit molestias explicabo ipsam autem et esse accusamus voluptate dolorum perferendis maxime, quidem eligendi quasi alias consequatur eius omnis labore.",
+        "start_date": "July 2021",
+        "end_date": "Present"
+    },
+    {
+        "org_name": "Maks Inc",
+        "id": "maks",
+        "type": "Contract",
+        "role":"React.js Developer",
+        "imageUrl": "/maks.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita velit molestias explicabo ipsam autem et esse accusamus voluptate dolorum perferendis maxime, quidem eligendi quasi alias consequatur eius omnis labore.",
+        "start_date": "July 2021",
+        "end_date": "Present"
+    },
+    {
+        "org_name": "Woiqo",
+        "id": "woiqo",
+        "type": "Part Time",
+        "role":"Frontend Developer",
+        "imageUrl": "/woiqo.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita velit molestias explicabo ipsam autem et esse accusamus voluptate dolorum perferendis maxime, quidem eligendi quasi alias consequatur eius omnis labore.",
+        "start_date": "July 2021",
+        "end_date": "Present"
+    }
+]
