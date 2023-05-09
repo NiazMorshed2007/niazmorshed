@@ -17,7 +17,7 @@ const RecommendationsSection = () => {
 }
 
 const RecommendationCard = ({ name, description, recommendation, avatar }) => {
-    return <div className='cursor-pointer pt-12 items-center hover:border-slate-900 border border-transparent w-[40%] h-max p-4 rounded-xl pb-7 flex flex-col gap-6 bg-primary/5'>
+    return <div className='cursor-pointer pt-12 items-center hover:border-slate-900 border border-transparent lg:w-[40%] sm:w-full w-[400px] h-max p-4 rounded-xl pb-7 flex flex-col gap-6 bg-primary/5'>
         <div className="flex flex-col items-center gap-4">
             <img className='w-[80px] h-[80px] rounded-full' src={avatar} alt="" />
             <div className='text-center'>

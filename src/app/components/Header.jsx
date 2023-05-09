@@ -13,8 +13,7 @@ const Header = () => {
 
     return <header className="fixed backdrop-blur-md z-50 flex items-center justify-between top-0 w-full left-0 px-[5%] py-7">
         <h1 className={`${cinzel.className} text-xl font-medium`}>Niaz Morshed.</h1>
-        <nav className="flex items-center text-sm gap-6">
-            <p>About me</p>
+        <nav className="hidden md:flex items-center text-sm gap-6">
             <p>Experience</p>
             <p>Projects</p>
             <p>Recommendations</p>
