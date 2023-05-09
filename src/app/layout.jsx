@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className={inter.className}>
         <Head>
-          <meta property="og:image" imageUrl={"https://pbs.twimg.com/media/FvNgQTDaYAA0sdF?format=jpg&name=small"} />
+          <meta property="og:image" content={"https://pbs.twimg.com/media/FvNgQTDaYAA0sdF?format=jpg&name=small"} />
         </Head>
         <img className="absolute top-0 left-0" style={{
         }} src="https://app.nhost.io/assets/line-grid.svg" alt="" />
