@@ -2,10 +2,10 @@
     {
         "org_name": "EddieHub",
         "id": "eddiehub",
-        "type": "volunteer",
+        "type": "Volunteer",
         "role":"Open Source Contributor",
         "imageUrl": "/eddiehub.png",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita velit molestias explicabo ipsam autem et esse accusamus voluptate dolorum perferendis maxime, quidem eligendi quasi alias consequatur eius omnis labore.",
+        "description": "At Eddiehub, I contributed to open source development using ReactJS and NextJS. I reported bugs and introduced new features, demonstrating my attention to detail and ability to work well in a team. My experience has been valuable for showcasing my skills in a collaborative environment.",
         "start_date": "February 2023",
         "end_date": "Present"
     },

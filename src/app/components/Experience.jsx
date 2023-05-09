@@ -30,7 +30,7 @@ const Experience = () => {
                 <div className="right w-full md:w-1/2">
                     <h1 className='text-2xl font-semibold'>{experiences[activeExperience].role}</h1>
                     <p className='font-semibold text-slate-400'>{experiences[activeExperience].type}</p>
-                    <p className='text-slate-400 mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita velit molestias explicabo ipsam autem et esse accusamus voluptate dolorum perferendis maxime, quidem eligendi quasi alias consequatur eius omnis labore.</p>
+                    <p className='text-slate-400 mt-3'>{experiences[activeExperience].description}</p>
                 </div>
             </div>
         </section>
