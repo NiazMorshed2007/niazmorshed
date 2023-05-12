@@ -17,7 +17,7 @@ const HeroSection = () => {
                 <Link href={"https://github.com/NiazMorshed2007"} target='_blank'>
                     <button className="p-2 md:px-6 px-3 text-xs md:text-base rounded-full border flex items-center gap-3 border-primary/50 bg-primary/10 transition-all hover:backdrop-blur-sm"><BsGithub /> View Github Profile</button>
                 </Link>
-                <button className="p-2 md:px-6 px-3 text-xs md:text-base  rounded-full border flex items-center gap-3 border-primary/10 bg-primary/5 transition-all hover:backdrop-blur-sm"><div className='w-[10px] h-[10px] bg-green-600 rounded-full'></div> I'm open for job!</button>
+                <button className="p-2 md:px-6 px-3 text-xs md:text-base  rounded-full border flex items-center gap-3 border-primary/5 bg-primary/5 transition-all cursor-default"><div className='w-[10px] h-[10px] bg-green-600 rounded-full'></div> I'm open for job!</button>
             </div>
 
             <div className="absolute flex flex-col items-center -translate-x-1/2 gap-3 bottom-10 left-1/2">
