@@ -1,37 +1,38 @@
 [
-    {
-    "title": "Endless",
-    "description": "Unleash your potentials with endless CMS. A serverless platform to make interactive web apps.",
-    "imageUrl": "/endless.png",
-    "link": "https://endlesscms.pro"
-},
-{
+  {
+    "title": "Popwola",
+    "description": "A no-code popup builder to easily create stunning popups for your website. Connect with a single script and grow your business",
+    "imageUrl": "/popwola-hashnode.png",
+    "link": "https://popwola.vercel.app"
+  },
+  {
     "title": "Linkfree",
     "description": "Connect to your audience with a single link. Showcase the content you create and your projects in one place.",
     "imageUrl": "/linkfree.png",
     "link": "https://github.com/EddieHubCommunity/LinkFree"
-},
-{
+  },
+  {
     "title": "React Email",
     "description": "A collection of high-quality, unstyled components for creating beautiful emails using React and TypeScript.",
     "imageUrl": "/resend.png",
     "link": "https://react.email"
-},
-{
+  },
+  {
     "title": "Quire",
     "description": "A project management tool where teams can manage project with their members with interactive environment!",
     "imageUrl": "/pms.png",
     "link": "https://pms-chi.vercel.app/u/overview"
-},
-{
+  },
+  {
     "title": "Chat App",
     "description": "A Realtime messaging application where users can talk to each other via text messages.",
     "imageUrl": "/chat.png",
     "link": "https://chat-app-ef65e.web.app/"
-},{
+  },
+  {
     "title": "Poetron",
     "description": "A poem generating AI tool powered by gpt-3.5-turbo ⚡, Provide some context and get a poem written for you.",
     "imageUrl": "/poetron.png",
     "link": "https://poetron.vercel.app/"
-}
+  }
 ]

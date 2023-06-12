@@ -2,62 +2,62 @@
 @tailwind components;
 @tailwind utilities;
 
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    @apply bg-dark text-primary;
-    overflow-x: hidden;
+  @apply bg-dark text-primary;
+  overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
-  
-  #cards:hover > .card::after {
-    opacity: 1;
-  }
-  
-  .card {
-    border-radius: 10px;
-    flex-direction: column;
-    position: relative;
-  }
-  
-  .card:hover::before {
-    opacity: 1;
-  }
-  
-  .card::before,
-  .card::after {
-    border-radius: inherit;
-    content: "";
-    height: 100%;
-    left: 0px;
-    opacity: 0;
-    position: absolute;
-    top: 0px;
-    transition: opacity 500ms;
-    width: 100%;
-  }
-  
-  .card::before {
-    background: radial-gradient(
-      800px circle at var(--mouse-x) var(--mouse-y), 
-      rgba(255, 255, 255, 0.1),
-      transparent 40%
-    );
-    z-index: -2;
-  }
-  
-  .card::after {  
-    background: radial-gradient(
-      600px circle at var(--mouse-x) var(--mouse-y), 
-      rgba(255, 255, 255, 0.1),
-      transparent 40%
-    );
-    z-index: 1;
-  }
-  
+#cards:hover > .card::after {
+  opacity: 1;
+}
+
+.card {
+  border-radius: 10px;
+  flex-direction: column;
+  position: relative;
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.card::before,
+.card::after {
+  border-radius: inherit;
+  content: "";
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  transition: opacity 500ms;
+  width: 100%;
+}
+
+.card::before {
+  background: radial-gradient(
+    800px circle at var(--mouse-x) var(--mouse-y),
+    rgba(255, 255, 255, 0.1),
+    transparent 40%
+  );
+  z-index: -2;
+}
+
+.card::after {
+  background: radial-gradient(
+    600px circle at var(--mouse-x) var(--mouse-y),
+    rgba(255, 255, 255, 0.1),
+    transparent 40%
+  );
+  z-index: 1;
+}
