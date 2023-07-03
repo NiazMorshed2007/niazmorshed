@@ -21,7 +21,7 @@ const Header = () => {
       <nav className="hidden md:flex items-center text-sm gap-6">
         <a href={"#experience"}>Experience</a>
         <a href={"#projects"}>Projects</a>
-        {/* <a href={"#blogs"}>Tech Blogs</a> */}
+        <a href={"#blogs"}>Tech Blogs</a>
         <a href={"#recommendations"}>Recommendations</a>
         {/* <p>Open Source Activity</p> */}
       </nav>
