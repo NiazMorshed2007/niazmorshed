@@ -36,7 +36,6 @@ const Blogs = () => {
         .then((data) => {
           const posts = data.data.user.publication.posts;
           setBlogs(posts);
-          console.log(posts);
         })
         .catch((error) => {
           console.error("Error:", error);
