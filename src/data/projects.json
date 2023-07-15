@@ -6,6 +6,18 @@
     "link": "https://popwola.vercel.app"
   },
   {
+    "title": "Appwrite Manager",
+    "description": "Appwrite Manager is a headless CMS designed to quickly and efficiently create stunning admin panels.",
+    "imageUrl": "/appwrite-manager.png",
+    "link": "https://github.com/NiazMorshed2007/appwrite-manager"
+  },
+  {
+    "title": "Appwrite Writer",
+    "description": "Appwrite Writer is a Notion like editor powered by Appwrite and Novel",
+    "imageUrl": "/appwrite-writer.png",
+    "link": "https://github.com/NiazMorshed2007/appwrite-writer"
+  },
+  {
     "title": "Linkfree",
     "description": "Connect to your audience with a single link. Showcase the content you create and your projects in one place.",
     "imageUrl": "/linkfree.png",
@@ -22,17 +34,5 @@
     "description": "A project management tool where teams can manage project with their members with interactive environment!",
     "imageUrl": "/pms.png",
     "link": "https://pms-chi.vercel.app/u/overview"
-  },
-  {
-    "title": "Chat App",
-    "description": "A Realtime messaging application where users can talk to each other via text messages.",
-    "imageUrl": "/chat.png",
-    "link": "https://chat-app-ef65e.web.app/"
-  },
-  {
-    "title": "Poetron",
-    "description": "A poem generating AI tool powered by gpt-3.5-turbo ⚡, Provide some context and get a poem written for you.",
-    "imageUrl": "/poetron.png",
-    "link": "https://poetron.vercel.app/"
   }
 ]
